@@ -1,0 +1,328 @@
+/* basic css sturcture start */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* basic css sturcture end */
+
+/* banner part start  */
+.banner_bg{
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_head{
+    padding-top: 100px;
+}
+.banner_head h2{
+    font-size: 150px;
+    color: white;
+}
+.banner_peragraph p{
+    text-align: justify;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+nav ul li a{
+    text-transform: uppercase;
+    color: white !important;
+}
+nav ul li a:hover{
+    color: #14d83f !important;
+}
+.wine_buttols{
+    position: relative;
+}
+.bottols img:nth-child(1) {
+    position: absolute;
+    top: 6%;
+    left: 70%;
+    height: 500px;
+}
+.bottols img:nth-child(2) {
+    position: absolute;
+    top: 0%;
+    left: 85%;
+    height: 500px;
+}
+/* banner part end */
+
+/* our wine part start  */
+#our_wine {
+    padding: 80px 0;
+}
+
+.winery_body_txt h2 {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.wineryshop span {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.wineryshop p {
+    padding: 20px 0;
+}
+
+.wineryshop a button {
+    padding: 20px 55px;
+    border: transparent;
+    background-color: #14d83f;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: white;
+}
+
+.wineryshop a button:hover {
+    background-color: transparent;
+    border: 1px solid red;
+    color: black;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+
+}
+
+/* our wine part end */
+
+/* testy wines part start */
+#testiwines {
+    padding: 35px 0;
+    background-color: blue;
+}
+
+.testi_header {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.testi_img {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testi_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testi_btn button {
+    padding: 20px 55px;
+    border: transparent;
+    background-color: #14d83f;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.testi_btn button:hover {
+    background-color: transparent;
+    border: 1px solid red;
+    color: white;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+/* testy wines part end */
+
+/* our wines part start */
+#ourwines {
+    padding: 50px 0;
+}
+
+.ourwines {
+    margin: 70px auto;
+}
+
+.ourwines_heading {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bottls {
+    padding-top: 200px;
+}
+
+.item_imgw {
+    text-align: center;
+    line-height: 228px;
+    margin: 0 auto;
+}
+
+.item_imgw img {
+    height: 180px;
+}
+
+.bottls {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.fristone {
+    height: 228px;
+    width: 228px;
+    border-radius: 50%;
+    background-color: blue;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    bottom: -81%;
+    left: 5%;
+    box-shadow: -3px 3px 13px 0px rgba(0, 0, 0, 0.58);
+}
+
+.second {
+    height: 228px;
+    width: 228px;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: -5%;
+    box-shadow: -3px 3px 13px 0px rgba(0, 0, 0, 0.58);
+}
+
+.third {
+    height: 228px;
+    width: 228px;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    bottom: -59%;
+    left: -5%;
+    box-shadow: -3px 3px 13px 0px rgba(0, 0, 0, 0.58);
+}
+
+.fourth {
+    height: 228px;
+    width: 228px;
+    border-radius: 50%;
+    background-color: #14d83f;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    bottom: 8%;
+    left: -15%;
+    box-shadow: -3px 3px 13px 0px rgba(0, 0, 0, 0.58);
+}
+
+/* our wines part end */
+
+/* contact part start */
+#contact {
+    padding: 40px 0;
+    background-color: blue;
+}
+
+.contact_part .contact_head {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+form > h6 {
+    color: white;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#name{
+    width: 530px;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+#number{
+    width: 530px;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+#email{
+    width: 530px;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+#massage{
+    width: 530px;
+    height: 200px;
+    font-family: 'Raleway', sans-serif;
+}
+form button{
+    margin: 50px 30%;
+    margin-bottom: 0;
+    padding: 20px 55px;
+    border: transparent;
+    background-color: #14d83f;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+form button:hover{
+    background-color: transparent;
+    color: white;
+    border: red 1px solid;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+/* contact part end */
+
+/* copyright part start */
+#copyright{
+    background-color: rgba(0, 0, 0, 0.596);
+    color: white;
+    height: 50px;
+}
+#copyright p{
+    line-height: 50px;
+    text-align: center;
+}
+/* copyright part end */

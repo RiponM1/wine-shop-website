@@ -1,0 +1,340 @@
+/* responsive started  */
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* logo part  */
+    .main_logo img {
+        width: 117px;
+    }
+
+    /* banner text */
+    .banner_head h2 {
+        font-size: 50px;
+        color: white;
+    }
+
+    .banner_peragraph p {
+        font-size: 10px;
+        margin-right: 250px;
+    }
+
+    /* bottls part */
+    .bottols img:nth-child(1) {
+        top: -11%;
+        left: 55%;
+        height: 246px;
+    }
+
+    .bottols img:nth-child(2) {
+        top: 5%;
+        left: 67%;
+        height: 246px;
+    }
+
+    /* banner button bar */
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    /* our wine part start  */
+    .wineryshop img {
+        width: 33px;
+    }
+
+    .wineryshop span {
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .wineryshop p {
+        margin-right: 90px;
+        text-align: justify;
+    }
+
+    .winershop_img img {
+        width: 350px;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    .wineryshop a {
+        display: inline-block;
+        text-align: center;
+        padding-left: 25%;
+    }
+
+    .wineryshop a button {
+        padding: 10px 20px;
+
+    }
+
+    /* testy part start */
+    .testi_header h2 {
+        padding-right: 90px;
+    }
+
+    .testi_header p {
+        font-size: 10px;
+        width: 400px;
+        padding-left: 12%;
+    }
+
+    .testi_img {
+        margin-left: 20px;
+    }
+
+    .testi_img img {
+        width: 100%;
+    }
+
+    .testi_btn button {
+        margin-right: 65px;
+    }
+
+    /* our wines part start  */
+    .ourwines_heading {
+        width: 430px;
+        margin: 0 auto;
+    }
+
+    .fristone {
+        left: 25%;
+    }
+
+    .second {
+        top: -85%;
+        left: 25%;
+    }
+
+    .third {
+        bottom: -10px;
+        left: 25%;
+    }
+
+    .bottls {
+        padding-top: 100px;
+    }
+
+    .fourth {
+        bottom: 35%;
+        left: 25%;
+    }
+
+    /* contact part  */
+    #name {
+        width: 400px;
+
+    }
+
+    #number {
+        width: 400px;
+
+    }
+
+    #email {
+        width: 400px;
+
+    }
+
+    #massage {
+        width: 400px;
+    }
+
+    form button {
+        margin: 27px 17%;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    /* banner part  */
+    .banner_head h2 {
+        font-size: 80px;
+    }
+
+    .banner_peragraph p {
+        margin-right: 264px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .navbar-toggler-icon i {
+        color: white;
+    }
+
+    .bottols img:nth-child(1) {
+        top: -5%;
+        left: 57%;
+        height: 400px;
+    }
+
+    .bottols img:nth-child(2) {
+        top: 9%;
+        left: 80%;
+        height: 400px;
+    }
+
+    /* winshop part  */
+    .winershop_img img {
+        width: 500px;
+        padding-top: 50px;
+    }
+
+    /* testi part  */
+    .testi_img img {
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    /* our wines part start  */
+    .ourwines_heading {
+        width: 430px;
+        margin: 0 auto;
+    }
+
+    .fristone {
+        left: 25%;
+    }
+
+    .second {
+        top: -85%;
+        left: 25%;
+    }
+
+    .third {
+        bottom: -10px;
+        left: 25%;
+    }
+
+    .bottls {
+        padding-top: 100px;
+    }
+
+    .fourth {
+        bottom: 35%;
+        left: 25%;
+    }
+
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /* banner part  */
+    .banner_head h2 {
+        font-size: 120px;
+    }
+
+    .banner_peragraph p {
+        margin-right: 280px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .navbar-toggler-icon i {
+        color: white;
+    }
+
+    .bottols img:nth-child(1) {
+        top: 6%;
+        left: 72%;
+        height: 400px;
+    }
+
+    .bottols img:nth-child(2) {
+        top: 12%;
+        left: 89%;
+        height: 400px;
+    }
+
+    /* winshop part  */
+    .winershop_img img {
+        width: 500px;
+        padding-top: 50px;
+    }
+
+    /* testi part  */
+    .testi_img img{
+        width: 100%;
+        padding-left: 5px;
+    }
+    /* our wines part start  */
+    .ourwines_heading {
+        width: 430px;
+        margin: 0 auto;
+    }
+
+    .fristone {
+        left: 30%;
+    }
+
+    .second {
+        top: -85%;
+        left: 30%;
+    }
+
+    .third {
+        bottom: -10px;
+        left: 30%;
+    }
+
+    .bottls {
+        padding-top: 100px;
+    }
+
+    .fourth {
+        bottom: 35%;
+        left: 30%;
+    }
+}
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    /* banner part  */
+    .banner_head h2 {
+        font-size: 120px;
+    }
+ 
+    navbar-nav li{
+        padding: 0 50px;
+    }
+    navbar-nav li a{
+        padding: 0 50px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+    }
+
+    .navbar-toggler-icon i {
+        color: white;
+    }
+
+    .bottols img:nth-child(1) {
+        top: 6%;
+        left: 72%;
+        height: 400px;
+    }
+
+    .bottols img:nth-child(2) {
+        top: 12%;
+        left: 89%;
+        height: 400px;
+    }
+
+    /* winshop part  */
+    .winershop_img img {
+        width: 500px;
+        padding-top: 50px;
+    }
+
+    /* testi part  */
+    .testi_img img{
+        width: 100%;
+        padding-left: 5px;
+    }
+ }
